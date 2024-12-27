@@ -97,12 +97,11 @@
         .contact-info {
             margin-top: 0.5rem;
             font-size: 0.9rem;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1rem;
         }
         .contact-info p {
-            margin: 0;
+            margin: 0.5rem 0;
+            display: block;
+            width: 100%;
         }
         .contact-info i {
             width: 20px;
@@ -140,9 +139,6 @@
     </style>
 </head>
 <body>
-    <header>
-        <!-- Remove content from here -->
-    </header>
     <main>
         <div class="left-column">
             <img src="./images/image.png" alt="Yiqi Zhu">
@@ -152,17 +148,17 @@
                 <p style="margin: 0; color: #666;">Undergraduate Student</p>
                 <p style="margin: 0 0 1rem 0; color: #666;">Tsinghua University</p>
                 <div class="contact-info">
-                    <p><i class="fas fa-map-marker-alt"></i>Beijing, China</p><br>
-                    <p><i class="fas fa-envelope"></i><a href="mailto:zhu-yq22@mails.tsinghua.edu.cn">Email</a></p><br>
-                    <p><i class="fab fa-twitter"></i><a href="https://x.com/StephenZhu0218" target="_blank">Twitter</a></p><br>
-                    <p><i class="fas fa-graduation-cap"></i><a href="https://scholar.google.com/citations?user=pVSe6agAAAAJ" target="_blank">Google Scholar</a></p><br>
+                    <p><i class="fas fa-map-marker-alt"></i>Beijing, China</p>
+                    <p><i class="fas fa-envelope"></i><a href="mailto:zhu-yq22@mails.tsinghua.edu.cn">Email</a></p>
+                    <p><i class="fab fa-twitter"></i><a href="https://x.com/StephenZhu0218" target="_blank">Twitter</a></p>
+                    <p><i class="fas fa-graduation-cap"></i><a href="https://scholar.google.com/citations?user=pVSe6agAAAAJ" target="_blank">Google Scholar</a></p>
                 </div>
             </div>
         </div>
         <section class="info">
             <h2>About Me</h2>
             <p>I am currently an undergraduate student at Department of Computer Science and Technology, Tsinghua University. I am honored to have the opportunity to work as a research intern with Professor <a href="https://nlp.csai.tsinghua.edu.cn/~ly/">Yang Liu</a> and <a href="https://lpeng.net/">Peng Li</a> on the topic of language agents and multimodal large language models since October 2023.</p>
-            <p>My research interest broadly lies in artificial intelligence. Specifically, I am curious about the following three topics: 1) <em>How to build robust language agents to finish challenging tasks (e.g. discovery of scientific knowledge)?</em> 2) <em>How to utilize the generalization ability of foundation models in embodied scenrios and tasks?</em> 3) <em>How to empower foundation models with the ability of understanding and simulating the real world?</em></p> 
+            <p>My research interest broadly lies in artificial intelligence. Specifically, I am curious about the following three topics: 1) <em>How to build robust language agents to finish challenging tasks (e.g. discover scientific knowledge)?</em> 2) <em>How to utilize the generalization ability of foundation models in embodied scenrios and tasks?</em> 3) <em>How to empower foundation models with the ability of understanding and simulating the real world?</em></p> 
         </section>
         <section class="publications">
             <h2>Publications</h2>
@@ -186,8 +182,5 @@
             </ul>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2024 Yiqi Zhu. All rights reserved.</p>
-    </footer>
 </body>
 </html>
