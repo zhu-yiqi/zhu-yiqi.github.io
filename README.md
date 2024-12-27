@@ -23,7 +23,7 @@
             display: inline-block;
         }
         main {
-            max-width: 900px;
+            max-width: 1200px;
             margin: 0 auto;
             padding: 2rem;
             width: 100%;
@@ -34,7 +34,7 @@
         }
         .info, .publications {
             margin-bottom: 2rem;
-            max-width: 900px;
+            max-width: 1200px;
         }
         .info p, .publications ul {
             margin: 0.5rem 0;
@@ -70,7 +70,7 @@
         }
         .info {
             text-align: left;
-            max-width: 600px;
+            max-width: 800px;
             margin: 2rem auto;
         }
         .publications {
@@ -144,8 +144,7 @@
                 <div class="name">Yiqi Zhu</div>
                 <p style="margin: 0; color: #666;">Undergraduate Student, Tsinghua University</p>
                 <div class="contact-info" style="display: flex; gap: 1.5rem; margin-top: 1rem;">
-                    <p><i class="fas fa-map-marker-alt"></i><a href="#">Beijing, China</a></p>
-                    <p><i class="fas fa-envelope"></i><a href="mailto:zhu-yq22@mails.tsinghua.edu.cn">Email</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i>Beijing, China</p>
                     <p><i class="fab fa-twitter"></i><a href="https://x.com/StephenZhu0218" target="_blank">Twitter</a></p>
                     <p><i class="fas fa-graduation-cap"></i><a href="https://scholar.google.com/citations?user=pVSe6agAAAAJ" target="_blank">Google Scholar</a></p>
                 </div>
