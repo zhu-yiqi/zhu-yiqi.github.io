@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
             margin: 0;
             padding: 0;
-            line-height: 1.6;
+            line-height: 1.7;
         }
         header {
             text-align: center;
@@ -25,7 +25,7 @@
         main {
             max-width: none;
             margin: 0;
-            padding: 2rem;
+            padding: 4rem;
             margin-left: 25%;
             width: 75%;
             box-sizing: border-box;
@@ -35,6 +35,7 @@
         }
         .info, .publications {
             margin-bottom: 2rem;
+            max-width: 900px;
         }
         .info p, .publications ul {
             margin: 0.5rem 0;
@@ -44,7 +45,7 @@
             padding: 0;
         }
         .publications li {
-            margin: 1rem 0;
+            margin: 2rem 0;
         }
         .publications a {
             color: #007BFF;
@@ -63,7 +64,7 @@
             left: 0;
             transform: none;
             width: 25%;
-            padding: 2rem;
+            padding: 4rem;
             top: 0;
             height: 100vh;
             background: white;
@@ -116,10 +117,25 @@
             color: #007BFF;
         }
         .name {
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 0.5rem;
+            font-size: 28px;
+            font-weight: 500;
+            margin-bottom: 0.75rem;
             color: #333;
+        }
+        h2 {
+            font-size: 32px;
+            margin-bottom: 1.5rem;
+            font-weight: 500;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.7;
+            color: #24292f;
+        }
+        .publications strong {
+            font-size: 18px;
+            display: block;
+            margin-bottom: 0.5rem;
         }
     </style>
 </head>
