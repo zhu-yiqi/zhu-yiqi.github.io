@@ -28,6 +28,7 @@
             padding: 2rem;
             width: 100%;
             margin-left: 0;
+            margin-top: 0;
         }
         h1, h2, h3 {
             color: #333;
@@ -137,6 +138,9 @@
         .info p {
             margin: 0.5rem 0;
             max-width: 100%;
+        }
+        .header-content {
+            display: none;
         }
     </style>
 </head>
