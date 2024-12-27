@@ -70,7 +70,7 @@
         }
         .info {
             text-align: left;
-            max-width: 800px;
+            max-width: 100%;
             margin: 2rem auto;
         }
         .publications {
@@ -134,6 +134,10 @@
             display: block;
             margin-bottom: 0.5rem;
         }
+        .info p {
+            margin: 0.5rem 0;
+            max-width: 100%;
+        }
     </style>
 </head>
 <body>
@@ -143,6 +147,7 @@
             <div class="profile-info">
                 <div class="name">Yiqi Zhu</div>
                 <p style="margin: 0; color: #666;">Undergraduate Student, Tsinghua University</p>
+                <p style="margin: 0; color: #666;">Email: zhu-yq22@mails.tsinghua.edu.cn</p>
                 <div class="contact-info" style="display: flex; gap: 1.5rem; margin-top: 1rem;">
                     <p><i class="fas fa-map-marker-alt"></i>Beijing, China</p>
                     <p><i class="fab fa-twitter"></i><a href="https://x.com/StephenZhu0218" target="_blank">Twitter</a></p>
