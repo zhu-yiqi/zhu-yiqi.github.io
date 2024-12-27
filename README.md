@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -21,14 +20,14 @@
         .left-column img {
             width: 150px;
             margin: 0;
+            display: inline-block;
         }
         main {
-            max-width: none;
-            margin: 0;
-            padding: 2rem 4rem;
-            margin-left: 25%;
-            width: 75%;
-            box-sizing: border-box;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            width: 100%;
+            margin-left: 0;
         }
         h1, h2, h3 {
             color: #333;
@@ -60,15 +59,14 @@
             padding: 1rem;
         }
         .left-column {
-            position: fixed;
-            left: 0;
-            transform: none;
-            width: 25%;
-            padding: 4rem;
-            top: 0;
-            height: 100vh;
-            background: white;
-            box-sizing: border-box;
+            position: relative;
+            width: 100%;
+            padding: 2rem;
+            height: auto;
+            text-align: left;
+            display: flex;
+            align-items: start;
+            gap: 2rem;
         }
         .info {
             text-align: left;
@@ -81,7 +79,7 @@
             text-align: left;
         }
         .profile-info {
-            flex-grow: 1;
+            text-align: left;
         }
         .social-links {
             margin-top: 0.5rem;
@@ -95,8 +93,8 @@
             color: #007BFF;
         }
         .contact-info {
-            margin-top: 0.5rem;
-            font-size: 0.9rem;
+            display: inline-block;
+            text-align: left;
         }
         .contact-info p {
             margin: 0.5rem 0;
@@ -143,12 +141,10 @@
         <div class="left-column">
             <img src="./images/image.png" alt="Yiqi Zhu">
             <div class="profile-info">
-                <br>
                 <div class="name">Yiqi Zhu</div>
-                <p style="margin: 0; color: #666;">Undergraduate Student</p>
-                <p style="margin: 0 0 1rem 0; color: #666;">Tsinghua University</p>
-                <div class="contact-info">
-                    <p><i class="fas fa-map-marker-alt"></i>Beijing, China</p>
+                <p style="margin: 0; color: #666;">Undergraduate Student, Tsinghua University</p>
+                <div class="contact-info" style="display: flex; gap: 1.5rem; margin-top: 1rem;">
+                    <p><i class="fas fa-map-marker-alt"></i><a href="#">Beijing, China</a></p>
                     <p><i class="fas fa-envelope"></i><a href="mailto:zhu-yq22@mails.tsinghua.edu.cn">Email</a></p>
                     <p><i class="fab fa-twitter"></i><a href="https://x.com/StephenZhu0218" target="_blank">Twitter</a></p>
                     <p><i class="fas fa-graduation-cap"></i><a href="https://scholar.google.com/citations?user=pVSe6agAAAAJ" target="_blank">Google Scholar</a></p>
