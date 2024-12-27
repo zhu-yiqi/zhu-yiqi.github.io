@@ -26,8 +26,8 @@
             max-width: none;
             margin: 0;
             padding: 4rem;
-            margin-left: 20%;
-            width: 80%;
+            margin-left: 25%;
+            width: 75%;
             box-sizing: border-box;
         }
         h1, h2, h3 {
@@ -63,7 +63,7 @@
             position: fixed;
             left: 0;
             transform: none;
-            width: 20%;
+            width: 25%;
             padding: 4rem;
             top: 0;
             height: 100vh;
@@ -169,7 +169,7 @@
                     [<a href="https://thunlp-mt.github.io/CoSpace/">Homepage</a>] [<a href="https://github.com/THUNLP-MT/CoSpace">Code</a>]
                 </li>
                 <li>
-                    <strong>AIGS: Generating Science from AI-Powered Automated Falsification</strong><br>
+                    <strong>AIGS: Generating Science from AI-Powered Automated Falsification</strong>
                     Zijun Liu*, Kaiming Liu*, Yiqi Zhu*, Xuanyu Lei*, Zonghan Yang*, Zhenhe Zhang, Peng Li, Yang Liu<br>
                     [<a href="https://agent-force.github.io/AIGS/">Homepage</a>] [<a href="https://github.com/AgentForceTeamOfficial/Baby-AIGS">Code</a>] [<a href="https://arxiv.org/abs/2411.11910">Paper</a>]
                 </li>
