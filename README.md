@@ -26,8 +26,8 @@
             max-width: none;
             margin: 0;
             padding: 4rem;
-            margin-left: 25%;
-            width: 75%;
+            margin-left: 20%;
+            width: 80%;
             box-sizing: border-box;
         }
         h1, h2, h3 {
@@ -63,7 +63,7 @@
             position: fixed;
             left: 0;
             transform: none;
-            width: 25%;
+            width: 20%;
             padding: 4rem;
             top: 0;
             height: 100vh;
@@ -148,9 +148,9 @@
                 <p style="margin: 0; color: #666;">Undergraduate Student</p>
                 <p style="margin: 0 0 1rem 0; color: #666;">Tsinghua University</p>
                 <div class="contact-info">
-                    <p><i class="fas fa-map-marker-alt"></i>Beijing, China</p>
-                    <p><i class="fas fa-envelope"></i><a href="mailto:zhu-yq22@mails.tsinghua.edu.cn">Email</a></p>
-                    <p><i class="fab fa-twitter"></i><a href="https://x.com/StephenZhu0218" target="_blank">Twitter</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i>Beijing, China</p><br>
+                    <p><i class="fas fa-envelope"></i><a href="mailto:zhu-yq22@mails.tsinghua.edu.cn">Email</a></p><br> 
+                    <p><i class="fab fa-twitter"></i><a href="https://x.com/StephenZhu0218" target="_blank">Twitter</a></p><br> 
                     <p><i class="fas fa-graduation-cap"></i><a href="https://scholar.google.com/citations?user=pVSe6agAAAAJ" target="_blank">Google Scholar</a></p>
                 </div>
             </div>
@@ -164,18 +164,18 @@
             <h2>Publications</h2>
             <ul>
                 <li>
-                    <strong>CoSpace: Benchmarking Continuous Space Perception Ability for Vision-Language Models</strong><br>
-                    <strong>Yiqi Zhu*</strong>, Ziyue Wang*, Can Zhang, Peng Li, Yang Liu<br>
+                    <strong>CoSpace: Benchmarking Continuous Space Perception Ability for Vision-Language Models</strong>
+                    Yiqi Zhu*, Ziyue Wang*, Can Zhang, Peng Li, Yang Liu<br>
                     [<a href="https://thunlp-mt.github.io/CoSpace/">Homepage</a>] [<a href="https://github.com/THUNLP-MT/CoSpace">Code</a>]
                 </li>
                 <li>
                     <strong>AIGS: Generating Science from AI-Powered Automated Falsification</strong><br>
-                    Zijun Liu*, Kaiming Liu*, <strong>Yiqi Zhu*</strong>, Xuanyu Lei*, Zonghan Yang*, Zhenhe Zhang, Peng Li, Yang Liu<br>
+                    Zijun Liu*, Kaiming Liu*, Yiqi Zhu*, Xuanyu Lei*, Zonghan Yang*, Zhenhe Zhang, Peng Li, Yang Liu<br>
                     [<a href="https://agent-force.github.io/AIGS/">Homepage</a>] [<a href="https://github.com/AgentForceTeamOfficial/Baby-AIGS">Code</a>] [<a href="https://arxiv.org/abs/2411.11910">Paper</a>]
                 </li>
                 <li>
-                    <strong>Browse and Concentrate: Comprehending Multimodal Content via prior-LLM Context Fusion</strong><br>
-                    Ziyue Wang*, Chi Chen*, <strong>Yiqi Zhu</strong>, Fuwen Luo, Peng Li, Ming Yan, Ji Zhang, Fei Huang, Maosong Sun, Yang Liu<br>
+                    <strong>Browse and Concentrate: Comprehending Multimodal Content via prior-LLM Context Fusion</strong>
+                    Ziyue Wang*, Chi Chen*, Yiqi Zhu, Fuwen Luo, Peng Li, Ming Yan, Ji Zhang, Fei Huang, Maosong Sun, Yang Liu<br>
                     [<a href="https://thunlp-mt.github.io/Brote/">Homepage</a>] [<a href="https://github.com/THUNLP-MT/Brote">Code</a>] [<a href="https://arxiv.org/abs/2402.12195">Paper</a>]<br>
                     <strong><em>ACL 2024 (Oral)</em></strong><br>
                 </li>
