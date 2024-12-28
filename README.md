@@ -29,6 +29,7 @@
             width: 100%;
             margin-left: 0;
             margin-top: 0;
+            padding-left: 0;
         }
         h1, h2, h3 {
             color: #333;
@@ -64,11 +65,12 @@
             position: relative;
             width: 100%;
             padding: 2rem;
+            padding-left: 0;
             height: auto;
             text-align: left;
             display: flex;
             align-items: start;
-            gap: 2rem;
+            gap: 4rem;
         }
         .info {
             text-align: left;
@@ -164,7 +166,7 @@
         </div>
         <section class="info">
             <h2>About Me</h2>
-            <p>I am currently an undergraduate student at Department of Computer Science and Technology, Tsinghua University. I have great honor to work with Prof. <a href="https://nlp.csai.tsinghua.edu.cn/~ly/">Yang Liu</a> and <a href="https://lpeng.net/">Peng Li</a> on language agents and multimodal large language models since October 2023. I also work closely with Dr. Ziyue Wang and <a href="https://minicheshire.github.io">Zonghan Yang</a>.</p>
+            <p>I am currently an undergraduate student at Department of Computer Science and Technology, Tsinghua University. I enjoy great honor to work with Prof. <a href="https://nlp.csai.tsinghua.edu.cn/~ly/">Yang Liu</a> and <a href="https://lpeng.net/">Peng Li</a> on language agents and multimodal large language models since October 2023. I also work closely with Dr. Ziyue Wang and <a href="https://minicheshire.github.io">Zonghan Yang</a>.</p>
             <p>My research interest broadly lies in artificial intelligence. Specifically, I am curious about the following three topics: 1) <em>How to build robust language agents to finish challenging tasks (e.g. discover scientific knowledge)?</em> 2) <em>How to utilize the generalization ability of foundation models in embodied scenarios and tasks?</em> 3) <em>How to empower foundation models with the ability of understanding and simulating the real world (a.k.a. World Modeling)?</em></p> 
         </section>
         <section class="publications">
