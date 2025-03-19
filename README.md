@@ -161,7 +161,7 @@
                     <p><i class="fas fa-graduation-cap"></i><a href="https://scholar.google.com/citations?user=pVSe6agAAAAJ" target="_blank">Google Scholar</a></p>
                     <p><i class="fas fa-file-pdf"></i><a href="./CV.pdf" target="_blank">CV</a></p>
                 </div>
-                <p style="margin: 0; color: #666;">Last updated on Jan 29, 2025</p>
+                <p style="margin: 0; color: #666;">Last updated on March 19, 2025</p>
             </div>
         </div>
         <section class="info">
@@ -178,7 +178,9 @@
                     <span style="font-size: 1.2em;">
                         <a href="https://thunlp-mt.github.io/CoSpace/"><i class="fas fa-home"></i> Homepage</a> 
                         <a href="https://github.com/THUNLP-MT/CoSpace"><i class="fab fa-github"></i> Code</a>
-                    </span>
+                        <a href="https://arxiv.org/abs/2503.14161"><i class="fas fa-file-alt"></i> Paper</a>
+                    </span><br>
+                    <strong><em>CVPR 2025</em></strong>
                 </li>
                 <li>
                     <strong>AIGS: Generating Science from AI-Powered Automated Falsification</strong>
@@ -187,7 +189,8 @@
                         <a href="https://agent-force.github.io/AIGS/"><i class="fas fa-home"></i> Homepage</a>
                         <a href="https://github.com/AgentForceTeamOfficial/Baby-AIGS"><i class="fab fa-github"></i> Code</a>
                         <a href="https://arxiv.org/abs/2411.11910"><i class="fas fa-file-alt"></i> Paper</a>
-                    </span>
+                    </span><br>
+                    <strong><em>Tech Report</em></strong>
                 </li>
                 <li>
                     <strong>Browse and Concentrate: Comprehending Multimodal Content via prior-LLM Context Fusion</strong>
