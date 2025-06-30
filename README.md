@@ -161,12 +161,12 @@
                     <p><i class="fas fa-graduation-cap"></i><a href="https://scholar.google.com/citations?user=pVSe6agAAAAJ" target="_blank">Google Scholar</a></p>
                     <p><i class="fas fa-file-pdf"></i><a href="./CV.pdf" target="_blank">CV</a></p>
                 </div>
-                <p style="margin: 0; color: #666;">Last updated on March 19, 2025</p>
+                <p style="margin: 0; color: #666;">Last updated on June 30, 2025</p>
             </div>
         </div>
         <section class="info">
             <h2>About Me</h2>
-            <p>I am currently an undergraduate student at Department of Computer Science and Technology, Tsinghua University. I enjoy great honor to work with Prof. <a href="https://nlp.csai.tsinghua.edu.cn/~ly/">Yang Liu</a> and <a href="https://lpeng.net/">Peng Li</a> on language agents and multimodal large language models since October 2023. I also work closely with Dr. Ziyue Wang and <a href="https://minicheshire.github.io">Zonghan Yang</a>.</p>
+            <p>Hi there! I am an undergraduate student at Department of Computer Science and Technology, Tsinghua University. I enjoy great honor to work with <a href="https://nlp.csai.tsinghua.edu.cn/~ly/">Yang Liu</a> and <a href="https://lpeng.net/">Peng Li</a> on language agents and multimodal large language models since October 2023. I am now an research intern at Carnegie Mellon Univeristy, working with <a href="https://www.phontron.com">Graham Neubig</a>.</p>
             <p>My research interest broadly lies in artificial intelligence. Specifically, I am curious about the following three topics: 1) <em>How to build robust language agents to finish challenging tasks (e.g. discover scientific knowledge)?</em> 2) <em>How to empower foundation models with the ability of understanding and simulating the real world (a.k.a. World Modeling)?</em> 3) <em>How to utilize the generalization ability of (visual) foundation models to help with embodied scenarios and tasks?</em></p> 
         </section>
         <section class="publications">
