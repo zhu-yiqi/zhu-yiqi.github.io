@@ -1,1 +1,47 @@
-theme: jekyll-theme-primer
+# Site settings
+title: "Yiqi Zhu's Academic Homepage"
+description: "Personal homepage of Yiqi Zhu - Undergraduate student at Tsinghua University and research intern at Carnegie Mellon University"
+baseurl: ""
+url: "https://zhu-yiqi.github.io"
+
+# Author information
+author:
+  name: "Yiqi Zhu"
+  email: "zhu-yq22@mails.tsinghua.edu.cn"
+  twitter: "StephenZhu0218"
+  github: "zhu-yiqi"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+
+# Include custom files
+include:
+  - assets
+
+# SEO settings
+lang: en_US
+timezone: Asia/Shanghai
+
+# Social media
+social:
+  name: Yiqi Zhu
+  links:
+    - https://twitter.com/StephenZhu0218
+    - https://github.com/zhu-yiqi
+    - https://scholar.google.com/citations?user=pVSe6agAAAAJ
