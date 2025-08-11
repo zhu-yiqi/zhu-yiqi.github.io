@@ -97,7 +97,7 @@ a:hover {
 }
 
 .profile-img {
-    width: 210px;
+    width: 230px;
     height: auto;
     object-fit: cover;
     flex-shrink: 0;
